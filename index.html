@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullet Hell Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu" id="start-menu">
+        <h1>Bullet Hell Game</h1>
+        <button id="start-button">Start Game</button>
+    </div>
+    <div class="game-container" id="game-container" style="display: none;">
+        <div class="player" id="player"></div>
+        <div class="enemy" id="enemy"></div>
+        <div class="score" id="score">Score: 0</div>
+        <div class="time" id="time">Time: 0:00</div>
+    </div>
+    <div class="menu" id="retry-menu" style="display: none;">
+        <h1>Game Over</h1>
+        <p id="final-score"></p>
+        <button id="retry-button">Retry</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
